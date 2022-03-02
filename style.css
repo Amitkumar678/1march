@@ -42,11 +42,29 @@
       box-shadow: 20px 18px 20px hotpink;
   }
 
-  
-
-
-
-
+}
+.ball{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ball1 1s linear infinite;
+    background-color: aqua;
+    position: relative;
+    left: 40%;
+}
+@keyframes ball1{
+    0%{
+        background-color: red;
+        transform: translateY(0px);
+    }
+    50%{
+        background-color: green;
+        transform: translateY(250px);
+    }
+    100%{
+        background-color: orange;
+        transform: translateY(-90px);
+    }
 }
   
   
