@@ -1,0 +1,54 @@
+.box{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: khaki;
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes abc {
+  0%{
+      background-color: green;
+      top: 0px;
+      left: 0px;
+      border: 2px solid black;
+  } 
+  25%{
+      background-color: aqua;
+      top: 0px;
+      left: 1100px;
+      border: 5px dashed red;
+      
+  }
+  50%{
+  background-color: red;
+  top: 400px;
+  left: 1100px;
+  box-shadow: 8px 12px 22px blue;
+
+  }
+  75%{
+      background-color: yellow;
+      top: 400px;
+      left: 0px;
+      transform: scaleX(60px);
+  }
+  100%{
+      background-color: olive;
+      top: 0px;
+      left: 0px;
+      box-shadow: 20px 18px 20px hotpink;
+  }
+
+  
+
+
+
+
+}
+  
+  
+   
+    
